@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0 commit date:2017-09-11, commit time:10:43, hash:5bd8ac9</authoring_tool>
+    </contributor>
+    <created>2018-08-01T03:59:28</created>
+    <modified>2018-08-01T03:59:28</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="skLightRayTex0_png" name="skLightRayTex0_png">
+      <init_from>skLightRayTex0.png</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="skLightRayTex0-effect">
+      <profile_COMMON>
+        <newparam sid="skLightRayTex0_png-surface">
+          <surface type="2D">
+            <init_from>skLightRayTex0_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="skLightRayTex0_png-sampler">
+          <sampler2D>
+            <source>skLightRayTex0_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="skLightRayTex0_png-sampler"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">26</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 0</color>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="skLightRayTex0-material" name="skLightRayTex0">
+      <instance_effect url="#skLightRayTex0-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="light_Group44-mesh" name="light_Group44">
+      <mesh>
+        <source id="light_Group44-mesh-positions">
+          <float_array id="light_Group44-mesh-positions-array" count="48">3.15185 -3.796977 0.05092799 -3.199983 4.107884 -0.04922598 2.238619 2.103953 0.07309597 -2.285 -1.804313 -0.07141697 2.947964 -2.686138 1.261515 -2.4792 -0.343542 -1.268678 3.009037 -2.667627 -1.151003 -2.982675 2.90968 -1.256452 2.539078 -0.04407894 1.271437 -3.043524 2.891237 1.147276 2.817396 -1.429294 -1.146356 -2.73456 1.306509 -1.262468 2.756314 -1.447805 1.266161 -2.795419 1.288067 1.141241 2.600151 -0.02556997 -1.141104 -2.540048 -0.361986 1.13505</float_array>
+          <technique_common>
+            <accessor source="#light_Group44-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="light_Group44-mesh-normals">
+          <float_array id="light_Group44-mesh-normals-array" count="72">0.02535766 -0.9996492 0.00764358 0.02533984 -0.9996497 0.007643103 0.02528172 -0.9996512 0.007641613 -0.02532559 0.9996501 -0.00764662 -0.02535903 0.9996492 -0.007647454 -0.02535778 0.9996492 -0.007647454 -0.3896009 -0.01692235 -0.9208284 -0.3895469 -0.0168935 -0.9208518 -0.3896344 -0.0169084 -0.9208145 -0.4650151 -0.01849919 -0.8851094 -0.4650321 -0.01849061 -0.8851007 -0.4649961 -0.01850914 -0.8851192 0.4415896 0.01811051 0.8970344 0.441606 0.01799845 0.8970286 0.4416003 0.01810532 0.8970292 -0.4416007 -0.0181055 -0.8970291 -0.4416027 -0.01800048 -0.8970302 -0.4416012 -0.0181052 -0.8970288 0.4649874 0.01851403 0.8851237 0.465031 0.0184915 0.8851013 0.4650149 0.01849991 0.8851096 0.3895362 0.01689827 0.9208562 0.3896424 0.01690536 0.9208111 0.3896015 0.01692229 0.9208281</float_array>
+          <technique_common>
+            <accessor source="#light_Group44-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="light_Group44-mesh-map-0">
+          <float_array id="light_Group44-mesh-map-0-array" count="48">1.4571 -0.7422 -0.4649 -0.2578 -0.4649 -0.7422 1.4493 -0.2578 1.4571 -0.7422 -0.4649 -0.2578 0.9961 -0.9961 0 0 0 -0.9961 0 0 0.9961 -0.9961 0.9961 0 0 -0.9961 0 0 0.9961 -0.9961 0 0 0.9961 -0.9961 0.9961 0 0 -0.9961 0 0 0.9961 -0.9961 0.9961 0 0.9961 -0.9961 0 0</float_array>
+          <technique_common>
+            <accessor source="#light_Group44-mesh-map-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="light_Group44-mesh-vertices">
+          <input semantic="POSITION" source="#light_Group44-mesh-positions"/>
+        </vertices>
+        <triangles material="skLightRayTex0-material" count="8">
+          <input semantic="VERTEX" source="#light_Group44-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#light_Group44-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#light_Group44-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 0 4 4 1 5 5 4 6 6 5 7 7 6 8 8 7 9 9 8 10 10 9 11 11 10 12 12 11 13 13 12 14 14 11 15 15 12 16 16 13 17 17 14 18 18 7 19 19 8 20 20 15 21 21 4 22 22 5 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="light_Group44_001-mesh" name="light_Group44.001">
+      <mesh>
+        <source id="light_Group44_001-mesh-positions">
+          <float_array id="light_Group44_001-mesh-positions-array" count="48">3.15185 -3.796977 0.05092799 -3.199983 4.107884 -0.04922598 2.238619 2.103953 0.07309597 -2.285 -1.804313 -0.07141697 2.947964 -2.686138 1.261515 -2.4792 -0.343542 -1.268678 3.009037 -2.667627 -1.151003 -2.982675 2.90968 -1.256452 2.539078 -0.04407894 1.271437 -3.043524 2.891237 1.147276 2.817396 -1.429294 -1.146356 -2.73456 1.306509 -1.262468 2.756314 -1.447805 1.266161 -2.795419 1.288067 1.141241 2.600151 -0.02556997 -1.141104 -2.540048 -0.361986 1.13505</float_array>
+          <technique_common>
+            <accessor source="#light_Group44_001-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="light_Group44_001-mesh-normals">
+          <float_array id="light_Group44_001-mesh-normals-array" count="72">0.02535766 -0.9996492 0.00764358 0.02533984 -0.9996497 0.007643103 0.02528172 -0.9996512 0.007641613 -0.02532559 0.9996501 -0.00764662 -0.02535903 0.9996492 -0.007647454 -0.02535778 0.9996492 -0.007647454 -0.3896009 -0.01692235 -0.9208284 -0.3895469 -0.0168935 -0.9208518 -0.3896344 -0.0169084 -0.9208145 -0.4650151 -0.01849919 -0.8851094 -0.4650321 -0.01849061 -0.8851007 -0.4649961 -0.01850914 -0.8851192 0.4415896 0.01811051 0.8970344 0.441606 0.01799845 0.8970286 0.4416003 0.01810532 0.8970292 -0.4416007 -0.0181055 -0.8970291 -0.4416027 -0.01800048 -0.8970302 -0.4416012 -0.0181052 -0.8970288 0.4649874 0.01851403 0.8851237 0.465031 0.0184915 0.8851013 0.4650149 0.01849991 0.8851096 0.3895362 0.01689827 0.9208562 0.3896424 0.01690536 0.9208111 0.3896015 0.01692229 0.9208281</float_array>
+          <technique_common>
+            <accessor source="#light_Group44_001-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="light_Group44_001-mesh-map-0">
+          <float_array id="light_Group44_001-mesh-map-0-array" count="48">1.4571 -0.7422 -0.4649 -0.2578 -0.4649 -0.7422 1.4493 -0.2578 1.4571 -0.7422 -0.4649 -0.2578 0.9961 -0.9961 0 0 0 -0.9961 0 0 0.9961 -0.9961 0.9961 0 0 -0.9961 0 0 0.9961 -0.9961 0 0 0.9961 -0.9961 0.9961 0 0 -0.9961 0 0 0.9961 -0.9961 0.9961 0 0.9961 -0.9961 0 0</float_array>
+          <technique_common>
+            <accessor source="#light_Group44_001-mesh-map-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="light_Group44_001-mesh-vertices">
+          <input semantic="POSITION" source="#light_Group44_001-mesh-positions"/>
+        </vertices>
+        <triangles material="skLightRayTex0-material" count="8">
+          <input semantic="VERTEX" source="#light_Group44_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#light_Group44_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#light_Group44_001-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 0 4 4 1 5 5 4 6 6 5 7 7 6 8 8 7 9 9 8 10 10 9 11 11 10 12 12 11 13 13 12 14 14 11 15 15 12 16 16 13 17 17 14 18 18 7 19 19 8 20 20 15 21 21 4 22 22 5 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="light_Group44_002-mesh" name="light_Group44.002">
+      <mesh>
+        <source id="light_Group44_002-mesh-positions">
+          <float_array id="light_Group44_002-mesh-positions-array" count="48">3.15185 -3.796977 0.05092799 -3.199983 4.107884 -0.04922598 2.238619 2.103953 0.07309597 -2.285 -1.804313 -0.07141697 2.947964 -2.686138 1.261515 -2.4792 -0.343542 -1.268678 3.009037 -2.667627 -1.151003 -2.982675 2.90968 -1.256452 2.539078 -0.04407894 1.271437 -3.043524 2.891237 1.147276 2.817396 -1.429294 -1.146356 -2.73456 1.306509 -1.262468 2.756314 -1.447805 1.266161 -2.795419 1.288067 1.141241 2.600151 -0.02556997 -1.141104 -2.540048 -0.361986 1.13505</float_array>
+          <technique_common>
+            <accessor source="#light_Group44_002-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="light_Group44_002-mesh-normals">
+          <float_array id="light_Group44_002-mesh-normals-array" count="72">0.02535766 -0.9996492 0.00764358 0.02533984 -0.9996497 0.007643103 0.02528172 -0.9996512 0.007641613 -0.02532559 0.9996501 -0.00764662 -0.02535903 0.9996492 -0.007647454 -0.02535778 0.9996492 -0.007647454 -0.3896009 -0.01692235 -0.9208284 -0.3895469 -0.0168935 -0.9208518 -0.3896344 -0.0169084 -0.9208145 -0.4650151 -0.01849919 -0.8851094 -0.4650321 -0.01849061 -0.8851007 -0.4649961 -0.01850914 -0.8851192 0.4415896 0.01811051 0.8970344 0.441606 0.01799845 0.8970286 0.4416003 0.01810532 0.8970292 -0.4416007 -0.0181055 -0.8970291 -0.4416027 -0.01800048 -0.8970302 -0.4416012 -0.0181052 -0.8970288 0.4649874 0.01851403 0.8851237 0.465031 0.0184915 0.8851013 0.4650149 0.01849991 0.8851096 0.3895362 0.01689827 0.9208562 0.3896424 0.01690536 0.9208111 0.3896015 0.01692229 0.9208281</float_array>
+          <technique_common>
+            <accessor source="#light_Group44_002-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="light_Group44_002-mesh-map-0">
+          <float_array id="light_Group44_002-mesh-map-0-array" count="48">1.4571 -0.7422 -0.4649 -0.2578 -0.4649 -0.7422 1.4493 -0.2578 1.4571 -0.7422 -0.4649 -0.2578 0.9961 -0.9961 0 0 0 -0.9961 0 0 0.9961 -0.9961 0.9961 0 0 -0.9961 0 0 0.9961 -0.9961 0 0 0.9961 -0.9961 0.9961 0 0 -0.9961 0 0 0.9961 -0.9961 0.9961 0 0.9961 -0.9961 0 0</float_array>
+          <technique_common>
+            <accessor source="#light_Group44_002-mesh-map-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="light_Group44_002-mesh-vertices">
+          <input semantic="POSITION" source="#light_Group44_002-mesh-positions"/>
+        </vertices>
+        <triangles material="skLightRayTex0-material" count="8">
+          <input semantic="VERTEX" source="#light_Group44_002-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#light_Group44_002-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#light_Group44_002-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 0 4 4 1 5 5 4 6 6 5 7 7 6 8 8 7 9 9 8 10 10 9 11 11 10 12 12 11 13 13 12 14 14 11 15 15 12 16 16 13 17 17 14 18 18 7 19 19 8 20 20 15 21 21 4 22 22 5 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="light_Group44_003-mesh" name="light_Group44.003">
+      <mesh>
+        <source id="light_Group44_003-mesh-positions">
+          <float_array id="light_Group44_003-mesh-positions-array" count="48">3.15185 -3.796977 0.05092799 -3.199983 4.107884 -0.04922598 2.238619 2.103953 0.07309597 -2.285 -1.804313 -0.07141697 2.947964 -2.686138 1.261515 -2.4792 -0.343542 -1.268678 3.009037 -2.667627 -1.151003 -2.982675 2.90968 -1.256452 2.539078 -0.04407894 1.271437 -3.043524 2.891237 1.147276 2.817396 -1.429294 -1.146356 -2.73456 1.306509 -1.262468 2.756314 -1.447805 1.266161 -2.795419 1.288067 1.141241 2.600151 -0.02556997 -1.141104 -2.540048 -0.361986 1.13505</float_array>
+          <technique_common>
+            <accessor source="#light_Group44_003-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="light_Group44_003-mesh-normals">
+          <float_array id="light_Group44_003-mesh-normals-array" count="72">0.02535766 -0.9996492 0.00764358 0.02533984 -0.9996497 0.007643103 0.02528172 -0.9996512 0.007641613 -0.02532559 0.9996501 -0.00764662 -0.02535903 0.9996492 -0.007647454 -0.02535778 0.9996492 -0.007647454 -0.3896009 -0.01692235 -0.9208284 -0.3895469 -0.0168935 -0.9208518 -0.3896344 -0.0169084 -0.9208145 -0.4650151 -0.01849919 -0.8851094 -0.4650321 -0.01849061 -0.8851007 -0.4649961 -0.01850914 -0.8851192 0.4415896 0.01811051 0.8970344 0.441606 0.01799845 0.8970286 0.4416003 0.01810532 0.8970292 -0.4416007 -0.0181055 -0.8970291 -0.4416027 -0.01800048 -0.8970302 -0.4416012 -0.0181052 -0.8970288 0.4649874 0.01851403 0.8851237 0.465031 0.0184915 0.8851013 0.4650149 0.01849991 0.8851096 0.3895362 0.01689827 0.9208562 0.3896424 0.01690536 0.9208111 0.3896015 0.01692229 0.9208281</float_array>
+          <technique_common>
+            <accessor source="#light_Group44_003-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="light_Group44_003-mesh-map-0">
+          <float_array id="light_Group44_003-mesh-map-0-array" count="48">1.4571 -0.7422 -0.4649 -0.2578 -0.4649 -0.7422 1.4493 -0.2578 1.4571 -0.7422 -0.4649 -0.2578 0.9961 -0.9961 0 0 0 -0.9961 0 0 0.9961 -0.9961 0.9961 0 0 -0.9961 0 0 0.9961 -0.9961 0 0 0.9961 -0.9961 0.9961 0 0 -0.9961 0 0 0.9961 -0.9961 0.9961 0 0.9961 -0.9961 0 0</float_array>
+          <technique_common>
+            <accessor source="#light_Group44_003-mesh-map-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="light_Group44_003-mesh-vertices">
+          <input semantic="POSITION" source="#light_Group44_003-mesh-positions"/>
+        </vertices>
+        <triangles material="skLightRayTex0-material" count="8">
+          <input semantic="VERTEX" source="#light_Group44_003-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#light_Group44_003-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#light_Group44_003-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 0 4 4 1 5 5 4 6 6 5 7 7 6 8 8 7 9 9 8 10 10 9 11 11 10 12 12 11 13 13 12 14 14 11 15 15 12 16 16 13 17 17 14 18 18 7 19 19 8 20 20 15 21 21 4 22 22 5 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="light_Group44_004-mesh" name="light_Group44.004">
+      <mesh>
+        <source id="light_Group44_004-mesh-positions">
+          <float_array id="light_Group44_004-mesh-positions-array" count="48">3.15185 -3.796977 0.05092799 -3.199983 4.107884 -0.04922598 2.238619 2.103953 0.07309597 -2.285 -1.804313 -0.07141697 2.947964 -2.686138 1.261515 -2.4792 -0.343542 -1.268678 3.009037 -2.667627 -1.151003 -2.982675 2.90968 -1.256452 2.539078 -0.04407894 1.271437 -3.043524 2.891237 1.147276 2.817396 -1.429294 -1.146356 -2.73456 1.306509 -1.262468 2.756314 -1.447805 1.266161 -2.795419 1.288067 1.141241 2.600151 -0.02556997 -1.141104 -2.540048 -0.361986 1.13505</float_array>
+          <technique_common>
+            <accessor source="#light_Group44_004-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="light_Group44_004-mesh-normals">
+          <float_array id="light_Group44_004-mesh-normals-array" count="72">0.02535766 -0.9996492 0.00764358 0.02533984 -0.9996497 0.007643103 0.02528172 -0.9996512 0.007641613 -0.02532559 0.9996501 -0.00764662 -0.02535903 0.9996492 -0.007647454 -0.02535778 0.9996492 -0.007647454 -0.3896009 -0.01692235 -0.9208284 -0.3895469 -0.0168935 -0.9208518 -0.3896344 -0.0169084 -0.9208145 -0.4650151 -0.01849919 -0.8851094 -0.4650321 -0.01849061 -0.8851007 -0.4649961 -0.01850914 -0.8851192 0.4415896 0.01811051 0.8970344 0.441606 0.01799845 0.8970286 0.4416003 0.01810532 0.8970292 -0.4416007 -0.0181055 -0.8970291 -0.4416027 -0.01800048 -0.8970302 -0.4416012 -0.0181052 -0.8970288 0.4649874 0.01851403 0.8851237 0.465031 0.0184915 0.8851013 0.4650149 0.01849991 0.8851096 0.3895362 0.01689827 0.9208562 0.3896424 0.01690536 0.9208111 0.3896015 0.01692229 0.9208281</float_array>
+          <technique_common>
+            <accessor source="#light_Group44_004-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="light_Group44_004-mesh-map-0">
+          <float_array id="light_Group44_004-mesh-map-0-array" count="48">1.4571 -0.7422 -0.4649 -0.2578 -0.4649 -0.7422 1.4493 -0.2578 1.4571 -0.7422 -0.4649 -0.2578 0.9961 -0.9961 0 0 0 -0.9961 0 0 0.9961 -0.9961 0.9961 0 0 -0.9961 0 0 0.9961 -0.9961 0 0 0.9961 -0.9961 0.9961 0 0 -0.9961 0 0 0.9961 -0.9961 0.9961 0 0.9961 -0.9961 0 0</float_array>
+          <technique_common>
+            <accessor source="#light_Group44_004-mesh-map-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="light_Group44_004-mesh-vertices">
+          <input semantic="POSITION" source="#light_Group44_004-mesh-positions"/>
+        </vertices>
+        <triangles material="skLightRayTex0-material" count="8">
+          <input semantic="VERTEX" source="#light_Group44_004-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#light_Group44_004-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#light_Group44_004-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 0 4 4 1 5 5 4 6 6 5 7 7 6 8 8 7 9 9 8 10 10 9 11 11 10 12 12 11 13 13 12 14 14 11 15 15 12 16 16 13 17 17 14 18 18 7 19 19 8 20 20 15 21 21 4 22 22 5 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="light_Group44_005-mesh" name="light_Group44.005">
+      <mesh>
+        <source id="light_Group44_005-mesh-positions">
+          <float_array id="light_Group44_005-mesh-positions-array" count="48">3.15185 -3.796977 0.05092799 -3.199983 4.107884 -0.04922598 2.238619 2.103953 0.07309597 -2.285 -1.804313 -0.07141697 2.947964 -2.686138 1.261515 -2.4792 -0.343542 -1.268678 3.009037 -2.667627 -1.151003 -2.982675 2.90968 -1.256452 2.539078 -0.04407894 1.271437 -3.043524 2.891237 1.147276 2.817396 -1.429294 -1.146356 -2.73456 1.306509 -1.262468 2.756314 -1.447805 1.266161 -2.795419 1.288067 1.141241 2.600151 -0.02556997 -1.141104 -2.540048 -0.361986 1.13505</float_array>
+          <technique_common>
+            <accessor source="#light_Group44_005-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="light_Group44_005-mesh-normals">
+          <float_array id="light_Group44_005-mesh-normals-array" count="72">0.02535766 -0.9996492 0.00764358 0.02533984 -0.9996497 0.007643103 0.02528172 -0.9996512 0.007641613 -0.02532559 0.9996501 -0.00764662 -0.02535903 0.9996492 -0.007647454 -0.02535778 0.9996492 -0.007647454 -0.3896009 -0.01692235 -0.9208284 -0.3895469 -0.0168935 -0.9208518 -0.3896344 -0.0169084 -0.9208145 -0.4650151 -0.01849919 -0.8851094 -0.4650321 -0.01849061 -0.8851007 -0.4649961 -0.01850914 -0.8851192 0.4415896 0.01811051 0.8970344 0.441606 0.01799845 0.8970286 0.4416003 0.01810532 0.8970292 -0.4416007 -0.0181055 -0.8970291 -0.4416027 -0.01800048 -0.8970302 -0.4416012 -0.0181052 -0.8970288 0.4649874 0.01851403 0.8851237 0.465031 0.0184915 0.8851013 0.4650149 0.01849991 0.8851096 0.3895362 0.01689827 0.9208562 0.3896424 0.01690536 0.9208111 0.3896015 0.01692229 0.9208281</float_array>
+          <technique_common>
+            <accessor source="#light_Group44_005-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="light_Group44_005-mesh-map-0">
+          <float_array id="light_Group44_005-mesh-map-0-array" count="48">1.4571 -0.7422 -0.4649 -0.2578 -0.4649 -0.7422 1.4493 -0.2578 1.4571 -0.7422 -0.4649 -0.2578 0.9961 -0.9961 0 0 0 -0.9961 0 0 0.9961 -0.9961 0.9961 0 0 -0.9961 0 0 0.9961 -0.9961 0 0 0.9961 -0.9961 0.9961 0 0 -0.9961 0 0 0.9961 -0.9961 0.9961 0 0.9961 -0.9961 0 0</float_array>
+          <technique_common>
+            <accessor source="#light_Group44_005-mesh-map-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="light_Group44_005-mesh-vertices">
+          <input semantic="POSITION" source="#light_Group44_005-mesh-positions"/>
+        </vertices>
+        <triangles material="skLightRayTex0-material" count="8">
+          <input semantic="VERTEX" source="#light_Group44_005-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#light_Group44_005-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#light_Group44_005-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 0 4 4 1 5 5 4 6 6 5 7 7 6 8 8 7 9 9 8 10 10 9 11 11 10 12 12 11 13 13 12 14 14 11 15 15 12 16 16 13 17 17 14 18 18 7 19 19 8 20 20 15 21 21 4 22 22 5 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="light_Group44" name="light_Group44" type="NODE">
+        <matrix sid="transform">-2.92042e-8 -1.0885e-7 -0.668115 -8.21207 -0.668115 4.75797e-15 2.92042e-8 10.54231 0 0.668115 -1.0885e-7 4.14714 0 0 0 1</matrix>
+        <instance_geometry url="#light_Group44-mesh" name="light_Group44">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="skLightRayTex0-material" target="#skLightRayTex0-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="light_Group44_001" name="light_Group44_001" type="NODE">
+        <matrix sid="transform">-2.71393e-8 -1.01153e-7 -0.6208746 -12.72814 -0.6208746 4.42155e-15 2.71393e-8 10.591 0 0.6208746 -1.01153e-7 3.921003 0 0 0 1</matrix>
+        <instance_geometry url="#light_Group44_001-mesh" name="light_Group44_001">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="skLightRayTex0-material" target="#skLightRayTex0-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="light_Group44_002" name="light_Group44_002" type="NODE">
+        <matrix sid="transform">-2.90472e-8 -1.08264e-7 -0.6645225 -3.802269 -0.6645225 4.73239e-15 2.90472e-8 10.71997 0 0.6645225 -1.08264e-7 4.217892 0 0 0 1</matrix>
+        <instance_geometry url="#light_Group44_002-mesh" name="light_Group44_002">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="skLightRayTex0-material" target="#skLightRayTex0-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="light_Group44_003" name="light_Group44_003" type="NODE">
+        <matrix sid="transform">-0.007133738 0.03141987 0.6580528 -12.6586 -0.658801 -0.00175282 -0.007058157 -16.98051 0.001414122 -0.6580892 0.03143694 4.331044 0 0 0 1</matrix>
+        <instance_geometry url="#light_Group44_003-mesh" name="light_Group44_003">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="skLightRayTex0-material" target="#skLightRayTex0-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="light_Group44_004" name="light_Group44_004" type="NODE">
+        <matrix sid="transform">-0.007114111 0.04759047 0.7411245 -8.081111 -0.7389316 -0.07453644 -0.002306789 -17.22882 0.07423201 -0.7374011 0.04806394 4.545987 0 0 0 1</matrix>
+        <instance_geometry url="#light_Group44_004-mesh" name="light_Group44_004">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="skLightRayTex0-material" target="#skLightRayTex0-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="light_Group44_005" name="light_Group44_005" type="NODE">
+        <matrix sid="transform">-0.006791118 0.0053158 0.7317207 -3.696059 -0.729437 -0.05806078 -0.006348122 -16.62151 0.05801063 -0.7294452 0.005837667 4.517717 0 0 0 1</matrix>
+        <instance_geometry url="#light_Group44_005-mesh" name="light_Group44_005">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="skLightRayTex0-material" target="#skLightRayTex0-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

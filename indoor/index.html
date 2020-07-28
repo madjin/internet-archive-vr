@@ -18,7 +18,7 @@
   <AssetVideo id="stream2" src="https://s.kool.world/vid/ipfs/presentor2.webm" auto_play="true" />
   <AssetSound auto_play="true" id="music" loop="true" src="backgroundmusic.mp3"/>
  </Assets>
- <Room ambient=".1 .1 .1" cubemap_irradiance_id="irmap" cubemap_radiance_id="rmap" pbr="true" pos="1 4 1" shadows="true" skybox_back_id="black" skybox_down_id="black" skybox_front_id="black" skybox_left_id="black" skybox_right_id="black" skybox_up_id="black" use_local_asset="room_plane" visible="false" xdir="1 0 0" zdir="0 0 1">
+ <Room ambient=".1 .1 .1" pbr="true" pos="1 4 1" shadows="true" skybox_back_id="black" skybox_down_id="black" skybox_front_id="black" skybox_left_id="black" skybox_right_id="black" skybox_up_id="black" use_local_asset="room_plane" visible="false" xdir="1 0 0" zdir="0 0 1">
   <Object cull_face="back" id="archive" pos="-0.7 3.5 16" xdir="0.000008 0 -1" zdir="1 0 0.000008" lighting="true" envmap_id="envmap" />
   <Sound gain="0.1" id="music" loop="true" rect="-100 -50 100 50"/>
   <Light js_id="Light1" pos="-1 8 16" col="#ff9900" light_intensity="4" light_cone_angle="0" light_cone_exponent="10" light_range="30" />
@@ -28,11 +28,11 @@
   <Object collision_id="picframe" id="picframe" js_id="camera_8953-19-1524303217" pos="-3.8 6.6 19.4" scale="11 5 20" xdir="1 -0 -0" ydir="0 1 -0.000002" zdir="0 0.000002 1" lighting="false" />
   <Object id="podium" js_id="jinn-2-1544401925" pos="-6.7 4.24 17.799999" xdir="0.996195 0 0.087156" zdir="-0.087156 0 0.996195"/>
   <Object id="plane" js_id="jin_1664-2-1595831261" pos="-6.65 5.72 18" cull_face="none" scale="1.1 1.3 1" video_id="stream2" collision_id="plane" lighting="false" blend_dest="one_minus_constant_color" blend_src="src_alpha" />
-  <Object collision_id="plane" id="plane" js_id="camera_8953-20-1524303538" lighting="true" pos="-3.8 6.6 19.200001" video_id="stream1" scale="5.4 4.2 1" xdir="-1 -0 -0" ydir="-0 1 -0" zdir="0 0 -1"/>
+  <Object collision_id="plane" id="plane" js_id="camera_8953-20-1524303538" lighting="false" pos="-3.8 6.6 19.200001" video_id="stream1" scale="5.4 4.2 1" xdir="-1 -0 -0" ydir="-0 1 -0" zdir="0 0 -1"/>
  </Room>
 </FireBoxRoom>
 -->
-<script src="https://web.janusxr.org/1.5.18/janusweb.js"></script>
+<script src="https://web.janusxr.org/1.5.5/janusweb.js"></script>
 <script>
 elation.janusweb.init({
         url: document.location.href,});

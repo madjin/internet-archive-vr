@@ -23,6 +23,11 @@ Social VR worlds from a 3D scan of the [Internet Archive](https://archive.org/).
   <img alt="Temple" target="_blank" src="https://i.imgur.com/ANwKhHn.jpg" height="220" width="49%">
 </a>
 
+## Demos
+
+- JanusXR
+  - https://madjin.github.io/internet-archive-vr/indoor/
+  - https://archive.on.fleek.co/indoor/
 
 ### Media
 

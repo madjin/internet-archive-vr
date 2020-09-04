@@ -17,17 +17,26 @@ Social VR worlds from a 3D scan of the [Internet Archive](https://archive.org/).
 **Inside**
 
 <a href="https://madjin.github.io/internet-archive-vr/indoor/index.html">
-  <img alt="Presentation" target="_blank" src="https://i.imgur.com/kScczgI.jpg" height="220" width="49%">
+  <img alt="Presentation" target="_blank" src="https://i.imgur.com/23B1yBk.jpg" height="190" width="32%">
 </a>
-<a href="https://madjin.github.io/internet-archive-vr/indoor/OOT.html">
-  <img alt="Temple" target="_blank" src="https://i.imgur.com/ANwKhHn.jpg" height="220" width="49%">
+<a href="https://madjin.github.io/internet-archive-vr/indoor/earth.html">
+  <img alt="Earth" target="_blank" src="https://i.imgur.com/iSBjeCE.jpg" height="190" width="32%">
+</a>
+<a href="https://madjin.github.io/internet-archive-vr/indoor/water.html">
+  <img alt="Water" target="_blank" src="https://i.imgur.com/63keZ3e.jpg" height="190" width="32%">
 </a>
 
 ## Demos
 
 - JanusXR
   - https://madjin.github.io/internet-archive-vr/indoor/
-  - https://archive.on.fleek.co/indoor/
+    - https://archive.on.fleek.co/indoor/
+  - https://madjin.github.io/internet-archive-vr/indoor/earth.html
+  - https://madjin.github.io/internet-archive-vr/indoor/water.html
+- VRChat
+  - https://vrchat.com/home/launch?worldId=wrld_9105c877-31d3-4913-8e15-595b47bd6982&instanceId=0 - Present
+  - https://vrchat.com/home/launch?worldId=wrld_a00ec13c-fc45-4489-b5c3-7ffc434e16af&instanceId=0 - Ancient
+  - https://vrchat.com/home/launch?worldId=wrld_b4475921-0b47-4380-ac47-22622fd4cbf4&instanceId=0 - Water
 
 ### Media
 

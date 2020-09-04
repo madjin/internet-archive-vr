@@ -2,6 +2,8 @@
 
 Social VR worlds from a 3D scan of the [Internet Archive](https://archive.org/). Click any image to view demos.
 
+## Demos
+
 **Outside**
 
 <a href="https://madjin.github.io/internet-archive-vr/outdoor/index.html">
@@ -26,8 +28,6 @@ Social VR worlds from a 3D scan of the [Internet Archive](https://archive.org/).
   <img alt="Water" target="_blank" src="https://i.imgur.com/63keZ3e.jpg" height="190" width="32%">
 </a>
 
-## Demos
-
 - JanusXR
   - https://madjin.github.io/internet-archive-vr/indoor/
     - https://archive.on.fleek.co/indoor/
@@ -47,7 +47,6 @@ Check out these great videos about the Internet Archive!
 - [Internet history is fragile. This archive is making sure it doesn’t disappear](https://www.youtube.com/watch?v=K8I28erYFLc)
 - [An inside look at the Internet Archive](https://www.youtube.com/watch?v=6wz90mBFwBk)
 - [The Internet Archive's Quest for All Knowledge](https://www.youtube.com/watch?v=ArYd01plrPo)
-
 
 ---
 

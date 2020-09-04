@@ -55,6 +55,8 @@ Check out these great videos about the Internet Archive!
 ### License
 
 Original 3D scan data from: https://gitlab.com/unityversity/InternetVARchive
+Now also hosted on Sketchfab: https://sketchfab.com/3d-models/internet-archive-b895255e32fd408eab9cf6d4d092c1b9
+
 
 This project is developed in public domain by unofficial volunteers for the Internet Archive.
 https://archive.org/about/terms.php

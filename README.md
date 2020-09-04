@@ -2,6 +2,8 @@
 
 Social VR worlds from a 3D scan of the [Internet Archive](https://archive.org/). Click any image to view demos.
 
+## Demos
+
 **Outside**
 
 <a href="https://madjin.github.io/internet-archive-vr/outdoor/index.html">
@@ -17,17 +19,29 @@ Social VR worlds from a 3D scan of the [Internet Archive](https://archive.org/).
 **Inside**
 
 <a href="https://madjin.github.io/internet-archive-vr/indoor/index.html">
-  <img alt="Presentation" target="_blank" src="https://i.imgur.com/kScczgI.jpg" height="220" width="49%">
+  <img alt="Presentation" target="_blank" src="https://i.imgur.com/23B1yBk.jpg" height="190" width="32%">
 </a>
-<a href="https://madjin.github.io/internet-archive-vr/indoor/OOT.html">
-  <img alt="Temple" target="_blank" src="https://i.imgur.com/ANwKhHn.jpg" height="220" width="49%">
+<a href="https://madjin.github.io/internet-archive-vr/indoor/earth.html">
+  <img alt="Earth" target="_blank" src="https://i.imgur.com/iSBjeCE.jpg" height="190" width="32%">
 </a>
-
-## Demos
+<a href="https://madjin.github.io/internet-archive-vr/indoor/water.html">
+  <img alt="Water" target="_blank" src="https://i.imgur.com/63keZ3e.jpg" height="190" width="32%">
+</a>
 
 - JanusXR
   - https://madjin.github.io/internet-archive-vr/indoor/
-  - https://archive.on.fleek.co/indoor/
+    - https://archive.on.fleek.co/indoor/
+  - https://madjin.github.io/internet-archive-vr/indoor/earth.html
+    - https://archive.on.fleek.co/indoor/earth.html
+  - https://madjin.github.io/internet-archive-vr/indoor/water.html
+    - https://archive.on.fleek.co/indoor/water.html
+- VRChat
+  - https://vrchat.com/home/launch?worldId=wrld_9105c877-31d3-4913-8e15-595b47bd6982&instanceId=0 - Present
+  - https://vrchat.com/home/launch?worldId=wrld_a00ec13c-fc45-4489-b5c3-7ffc434e16af&instanceId=0 - Ancient
+  - https://vrchat.com/home/launch?worldId=wrld_b4475921-0b47-4380-ac47-22622fd4cbf4&instanceId=0 - Water
+- Mozilla Hubs
+  - https://hubs.mozilla.com/scenes/dSgoJtN
+
 
 ### Media
 
@@ -39,12 +53,13 @@ Check out these great videos about the Internet Archive!
 - [An inside look at the Internet Archive](https://www.youtube.com/watch?v=6wz90mBFwBk)
 - [The Internet Archive's Quest for All Knowledge](https://www.youtube.com/watch?v=ArYd01plrPo)
 
-
 ---
 
 ### License
 
 Original 3D scan data from: https://gitlab.com/unityversity/InternetVARchive
+Now also hosted on Sketchfab: https://sketchfab.com/3d-models/internet-archive-b895255e32fd408eab9cf6d4d092c1b9
+
 
 This project is developed in public domain by unofficial volunteers for the Internet Archive.
 https://archive.org/about/terms.php

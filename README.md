@@ -35,12 +35,13 @@ Social VR worlds from a 3D scan of the [Internet Archive](https://archive.org/).
     - https://archive.on.fleek.co/indoor/earth.html
   - https://madjin.github.io/internet-archive-vr/indoor/water.html
     - https://archive.on.fleek.co/indoor/water.html
-- VRChat
+- VRChat (unreleased)
   - https://vrchat.com/home/launch?worldId=wrld_9105c877-31d3-4913-8e15-595b47bd6982&instanceId=0 - Present
   - https://vrchat.com/home/launch?worldId=wrld_a00ec13c-fc45-4489-b5c3-7ffc434e16af&instanceId=0 - Ancient
   - https://vrchat.com/home/launch?worldId=wrld_b4475921-0b47-4380-ac47-22622fd4cbf4&instanceId=0 - Water
 - Mozilla Hubs
   - https://hubs.mozilla.com/scenes/dSgoJtN
+  - hub.link/NpEDx7H - Demo (open in Oculus Browser)
 
 
 ### Media

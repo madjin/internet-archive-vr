@@ -48,7 +48,9 @@ Archiving the Internet Archive so future generations can walk around the Library
 - Mozilla Hubs
   - https://hubs.mozilla.com/scenes/dSgoJtN
   - hub.link/NpEDx7H - Demo (open in Oculus Browser)
-
+- Sketchfab
+  - https://sketchfab.com/3d-models/internet-archive-building-2d76cc9e714f42bb9d090af73074296a
+  - https://sketchfab.com/3d-models/internet-archive-b895255e32fd408eab9cf6d4d092c1b9
 
 ### Media
 
@@ -65,7 +67,6 @@ Check out these great videos about the Internet Archive!
 ### License
 
 Original 3D scan data from: https://gitlab.com/unityversity/InternetVARchive
-Now also hosted on Sketchfab: https://sketchfab.com/3d-models/internet-archive-b895255e32fd408eab9cf6d4d092c1b9
 
 
 This project is developed in public domain by unofficial volunteers for the Internet Archive.

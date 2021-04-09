@@ -1,6 +1,6 @@
 # Internet Archive VR
 
-Archiving the Internet Archive so future generations can walk around the Library of Alexandria 2.0 which stores humanity's knowledge. The social VR worlds are made from a 3D scan of the [Internet Archive](https://archive.org/) HQ located in San Francisco California. More info about the Internet Archive VR project can be found here: https://hackmd.io/@XR/internetarchive.
+Archiving the Internet Archive so future generations can walk around the Library of Alexandria 2.0 which stores humanity's knowledge. The social VR worlds are made from a 3D scan of the [Internet Archive](https://archive.org/) HQ located in San Francisco California. More info about the project can be found here: https://hackmd.io/@XR/internetarchive.
 
 ## Demos
 

@@ -1,10 +1,16 @@
 # Internet Archive VR
 
-Social VR worlds from a 3D scan of the [Internet Archive](https://archive.org/). Click any image to view demos.
+Archiving the Internet Archive so future generations can walk around the Library of Alexandria 2.0 which stores humanity's knowledge. The social VR worlds are made from a 3D scan of the [Internet Archive](https://archive.org/) HQ located in San Francisco California.
 
 ## Demos
 
 **Outside**
+
+<a href="https://github.com/madjin/internet-archive-vr/blob/master/outdoor/InternetArchive.blend">
+  <img alt="Vanilla" target="_blank" src="https://user-images.githubusercontent.com/32600939/114121927-49d70000-98bd-11eb-96f0-41bb448b3975.png" width="99%">
+</a>
+
+<br>
 
 <a href="https://madjin.github.io/internet-archive-vr/outdoor/index.html">
   <img alt="Vanilla" target="_blank" src="https://i.gyazo.com/3b862a80f311723915495c5443f85066.gif" height="190" width="32%">

@@ -51,6 +51,9 @@ Archiving the Internet Archive so future generations can walk around the Library
 - Sketchfab
   - https://sketchfab.com/3d-models/internet-archive-building-2d76cc9e714f42bb9d090af73074296a
   - https://sketchfab.com/3d-models/internet-archive-b895255e32fd408eab9cf6d4d092c1b9
+- Hyperfy
+  - https://hyperfy.io/internetarchive
+  - https://hyperfy.io/archive
 
 ### Media
 
